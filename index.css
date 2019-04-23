@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1430px;
+    width: 100%;
+}
+
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-3{
+    padding: 0;
+}
+
+img{
+    cursor: pointer;
+}
+
+.dropdown .dropdown-menu{
+    transition:all 0.5s ;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* 用于实现鼠标触碰就可以实现下拉菜单 */
+
+.nav-link{
+    color: white;
+    margin-top: 47px; 
+    width: 100px;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: #90000a;
+    background-color: #fff
+}
+
+
+.toutu{
+    background-color: #90000a;
+    background-size: 1460px;
+    height: 144px;
+}
+.dropdown .dropdown-menu{
+    opacity: 0;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+    }
+
+.ED{
+    width:2000px;
+    display: flex;
+    flex-direction: row
+}
+
+.SOUSUO{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    margin-left: -230px
+}
+
+.LUNBO{
+    height: 712px;
+}
+
+
+.dropdown-item{
+    font-size: 15px
+}
+
+.list-group-item{
+    font-size: 15px
+}
+
+.list-group-item:hover{
+    color: #90000a;
+    cursor: pointer;
+}
+
+
+
+
+
+.DISIBAN{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.DISIBAN-2{
+    width: 400px;
+    height: 620px;
+    margin-left: 50px;
+    margin-top: 30px
+}
+
+#ADAD:hover{
+    cursor: pointer;
+    color: #90000a
+}
+
+#x{
+    position: fixed;
+    left: 93%;
+    top: 90%;
+    display: block;
+}

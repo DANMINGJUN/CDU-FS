@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为了让 Bootstrap 开发的网站对移动设备友好，确保适当的绘制和触屏缩放 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>成都大学</title>
+    <link rel="icon" href="./image/animated_favicon.gif" type="image/gif">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="./jQuery.js"></script>
+    <script src="./boottsrap.js"></script>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./Bootstrap/css/bootstrap.css" />
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid" style="padding: 0px;margin: 0;">
+        <div class="toutu">
+            <!-- <div class="row">
+                <div class="col-2">
+                    <div class="media">
+                        <div class="media-body"><a style="color: #fff;opacity: 0.75;"
+                                href="http://xxgk.cdu.edu.cn/">信息公开</a></div>
+                        <div class="media-right">
+                            <div style="padding-right: 50px;">
+                                <form class="bs-example bs-example-form" role="form">
+                                    <div class="input-group" style="width:92px;">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">
+                                                <img src="./image/icon_search.png">
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col-md-offset-1"></div>
+                <div class="col-2">
+                    <a href="https://www.cdu.edu.cn/"><img style="height: 60px;margin-top: 30px"
+                            class="img-responsive center-block" src="./image/logo.png"></a>
+                </div>
+                <div class="col-7">
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav">
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">学校概况</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">学校历史</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">学校简介</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">名誉校长</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">学校领导</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">学校图片</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">交通指南</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">校园地图</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">机构设置</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">职能部门</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">直属业务部门</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">附属单位</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">院系设置</a>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">人才培养</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">人才培养概况</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">本专科教育</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">研究生教育</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">留学生教育</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">继续教育</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">学科建设</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">学科建设概况</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">学科建设办</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">科学研究</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">科学研究概况</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">省部级科研平台</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">科研成果</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">科研成果转化</a>
+                                    <br>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">师资队伍</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">概况</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">专家队伍</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">教学名师</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">博导资格教师</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">硕士生导师</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">教授名录</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">招生就业</a>
+                                <div class="dropdown-menu " style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">本专科招生</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">研究生招生</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">留学生招生</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">成教招生</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">就业信息</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">合作交流</a>
+                                <div class="dropdown-menu" style="margin-top: -1px;border: 0px">
+                                    <a class="dropdown-item" href="#">国际合作与交流概况</a>
+                                    <br>
+                                    <a class="dropdown-item" href="#">国际合作与交流</a>
+                                </div>
+                            </li>
+                            <li class="dropdown" data-toggle="dropdown">
+                                <a class="nav-link" href="#">新闻网</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2" style="margin-left: -250px;margin-top: 20px">
+                    <div style="padding-right: 50px;">
+                        <form class="bs-example bs-example-form" role="form">
+                            <div class="input-group" style="width:92px;">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <img src="./image/icon_search.png">
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="myCarousel" class="carousel slide" id="slidershow" data-ride="carousel" data-interval="2500">
+        <!-- 加上 class="carousel slide" id="slidershow" data-ride="carousel" data-interval="2000"就可以实现自动轮播 -->
+        <ol style="width: 400px;" class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"><span
+                    style="font-size: 50px;color:#fff;margin-left: 1000px">1</span></li>
+            <li data-target="#myCarousel" data-slide-to="1"><span
+                    style="font-size: 50px;color:#fff;margin-left: 1000px">2</span></li>
+            <li data-target="#myCarousel" data-slide-to="2"><span
+                    style="font-size: 50px;color:#fff;margin-left: 1000px">3</span></li>
+            <li data-target="#myCarousel" data-slide-to="3"><span
+                    style="font-size: 50px;color:#fff;margin-left: 1000px">4</span></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24940"><img src="./image/安全.jpg"
+                        width="1900px" height="712px"></a>
+            </div>
+            <div class="item">
+                <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24870"><img src="./image/樱花.jpg"
+                        width="1900px" height="712px"></a>
+            </div>
+            <div class="item">
+                <a href="http://mpt.cdu.edu.cn/round2/index.aspx?tdsourcetag=s_pctim_aiomsg"><img src="./image/老师投票.jpg"
+                        width="1900px" height="712px"></a>
+            </div>
+            <div class="item">
+                <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24893"><img src="./image/发展.jpg"
+                        width="1900px" height="712px"></a>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div class="container-fluid" style="padding: 0;min-width: 1330px;">
+        <div style="height: 555px;">
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col-2"></div>
+                <div class="col-3 ">
+                    <div class="media" style="margin-top: 40px;">
+                        <div class="media-right"><img src="./image/成大新闻.png"></div>
+                        <div class="media-body">
+                            <strong style="font-size: 20px">成大新闻</strong>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="text-center" style="background: #90000a;width: 68px;height: 68px;line-height: 5px">
+                            <br>
+                            <br>
+                            <h1 style="font-size: 24px;color: #fff;">12</h1>
+                            <p class="small" style="color: #fff;">4月</p>
+                        </div>
+                        <div class="media-body" style="font-size: 18px;margin-left: 20px;"><a style="color: black"
+                                href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24930">本科教学工作审核评估专家组意见反馈会举行</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24930"><img
+                            class="img-responsive center-block" style="width: 360px;height: 240px;"
+                            src="./image/专家组.jpg"></a>
+                    <p class="text-muted  text-center">
+                        4月11日下午，成都大学本科教学工作审核评估专家组意见反馈会在综合教学楼会议室举行。专家组组长蔡敬民教授主持会议并反馈审核评估总体情况。四川省教育厅副厅</p>
+                    <br>
+                    <p class="text-right small text-muted">详情></p>
+                </div>
+                <div class="col-3 ">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="media">
+                        <div class="text-center" style="background: #90000a;width: 68px;height: 68px;line-height: 5px">
+                            <br>
+                            <br>
+                            <h1 style="font-size: 24px;color: #fff;">10</h1>
+                            <p class="small" style="color: #fff;">4月</p>
+                        </div>
+                        <div class="media-body" style="font-size: 18px;margin-left: 20px"><a style="color: black"
+                                href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24924">附属医院袁家天荣获第五届成都市道德模范</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24924"><img
+                            class="img-responsive center-block" style="width: 360px;height: 240px;"
+                            src="./image/获奖.jpg"></a>
+                    <p class="text-muted ">近日，第五届成都市道德模范颁奖仪式在成都广播电视台演播厅举行。成都大学附属医院普外科主任医师袁家天教授荣获诚实守信模范。</p>
+                    <br>
+                    <p class="text-right small text-muted">详情></p>
+                </div>
+                <div class="col-3">
+                    <div class="media">
+                        <div class="media-body">
+                        </div>
+                        <div class="media-right">
+                            <a href="http://news.cdu.edu.cn/index.php?m=news&a=slist&cat_id=2"><img
+                                    style="margin-bottom: 20px;margin-top: 45px;" src="./image/more+.png"></a>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-10</span>
+                            ●附属医院袁家天荣获第五届成都市道德模范
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-09</span>
+                            ●【成大人物】段怀川：发表SCI论文的成大学子
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-08</span>
+                            ● 本科教学工作审核评估专家组到校考察
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-08</span>
+                            ● 本科教学工作审核评估专家集体走访考察
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px;"
+                                class="badge">04-08</span>
+                            ● 我校联合培养博士科研成果在绿色化学领域顶
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-04</span>
+                            ● 德国多特蒙德俱乐部大中华区总裁本杰明·瓦尔来访
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-04</span>
+                            ● 【校报专题】披荆斩棘考研路 以梦为马勇向前
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-03</span>
+                            ● 王清远率队前往石渠县开展定点扶贫
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container-fluid" style="padding: 0">
+        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+            <div style="padding:0" class="col-3">
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/女子健美队.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">
+                        我校全明星女子健身队</div>
+                </div>
+            </div>
+            <div style="padding:0" class="col-3">
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/侨.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">校园一角
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/路.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">绚丽樱花
+                    </div>
+                </div>
+            </div>
+            <div style="padding:0" class="col-3">
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/嗷嗷.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">
+                        艺术学实践教育基地</div>
+                </div>
+            </div>
+            <div style="padding:0" class="col-3">
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/运动馆.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">体育馆
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <a href="http://news.cdu.edu.cn/index.php?m=album&a=index"><img style="margin: 0;width: 500px;"
+                            class="img-responsive center-block" src="./image/图书馆.jpg"></a>
+                    <div style="position:absolute; z-index:2; left:10px; bottom:10px;font-size: 18px;color: #fff;">图书馆
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid" style="padding: 0;min-width: 1330px;">
+        <div style="height: 500px;">
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <div class="media">
+                        <div class="media-left"><img src="./image/icon_academic.png"></div>
+                        <div class="media-body" style="font-size: 20px;font-weight: bold">学术文化</div>
+                        <div class="media-right"><a
+                                href="http://news.cdu.edu.cn/index.php?m=announce&a=slist&cat_id=75"><img
+                                    src="./image/more+.png"></a></div>
+                    </div>
+                    <div class="media" style="margin-top: 75px;">
+                        <div class="media-left">
+                            <div class="text-center"
+                                style="background: #f7eff0;width: 68px;height: 68px;line-height: 5px">
+                                <h1 style="font-size: 24px;color: #bd010f;padding-top: 15px;margin-top: 0px;">30</h1>
+                                <p class="small" style="color: #bd010f;">4月</p>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            【成大讲坛】陈岳：从“川西夫子”到“槐轩学派” 双流两百年文化传奇
+                            <p class="small" style="margin-top: 20px;color: #999;">14:00 学术会议室</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="text-center"
+                                style="background: #f7eff0;width: 68px;height: 68px;line-height: 5px">
+                                <h1 style="font-size: 24px;color: #bd010f;padding-top: 15px;margin-top: 0px;">18</h1>
+                                <p class="small" style="color: #bd010f;">4月</p>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            【成大讲坛】英国皇家刑事法院法官Patrick Thomas QC：正当防卫与共同犯罪
+                            <p class="small" style="margin-top: 20px;color: #999;">10:00 7202</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="text-center"
+                                style="background: #f7eff0;width: 68px;height: 68px;line-height: 5px">
+                                <h1 style="font-size: 24px;color: #bd010f;padding-top: 15px;margin-top: 0px;">17</h1>
+                                <p class="small" style="color: #bd010f;">4月</p>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            【成大讲坛】英国皇家刑事法院法官Patrick Thomas QC：英国刑事司法体系
+                            <p class="small" style="margin-top: 20px;color: #999;">19:00 31 17</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-3">
+                    <div class="media">
+                        <div class="media-left"><img src="./image/icon_note.png"></div>
+                        <div class="media-body" style="font-size: 20px;font-weight: bold">通知公告</div>
+                        <div class="media-right"><a
+                                href="http://news.cdu.edu.cn/index.php?m=announce&a=slist&cat_id=1"><img
+                                    src="./image/more+.png"></a></div>
+                    </div>
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-10</span>
+                            关于选拔“美中友好志愿者”接待家庭的公告
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-12</span>
+                            成都大学电力设施增容改造项目竣工结算审计项目招标结果
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-10</span>
+                            关于召开成都大学本科教学工作审核评估专家组意见反馈会
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-10</span>
+                            成都大学后勤处限额以下园林绿化工程施工单位预选储备库
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px;"
+                                class="badge">04-10</span>
+                            成都大学2019-2020学年度教材供应商采购中标公告
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-09</span>
+                            关于召开2018年度非学历教育总结表彰暨2019年目标任务布置会
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">04-09</span>
+                            成都大学后勤处限额以下园林绿化工程施工单位预选储备库
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="media">
+                        <div class="media-left"><img src="./image/icon_view.png"></div>
+                        <div class="media-body" style="font-size: 20px;font-weight: bold">媒体视角</div>
+                        <div class="media-right"><a href="http://news.cdu.edu.cn/index.php?m=news&a=slist&cat_id=4"><img
+                                    src="./image/more+.png"></a></div>
+                    </div>
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-27</span>
+                            【成都发布】成都大学举行2019届毕业生春季大型双选会 校友
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-27</span>
+                            【成都晚报】校友回母校“招贤纳士”
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-27</span>
+                            【四川新闻网】成都大学2019届毕业生春季双选会举行 491家企
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-27</span>
+                            【中国新闻网】成都大学举行2019届毕业生春季大型双选会
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px;"
+                                class="badge">03-27</span>
+                            【成都商报教育发布】郁钧剑、徐沛东、黄宏等齐聚成都，
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-26</span>
+                            【四川新闻网】中国-东盟艺术学院召开2019年工作会 将加强
+                        </li>
+                        <li class="list-group-item">
+                            <span style="background-color: #fff;color: rgba(0,0,0,.5);font-size: 16px"
+                                class="badge">03-26</span>
+                            【成都日报】中国—东盟艺术学院音乐专业 助力成都建设国
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0;">
+        <div style="background-image: url(./image/bg_01.jpg);height: 496px;">
+            <div class="row" style="margin-left: 0px;margin-right: 0px;padding-top: 40px">
+                <div class="col-2"></div>
+                <div class="col-2 text-center"><a href="http://cpc.people.com.cn/xuexi/"><img
+                            class="img-responsive center-block" src="./image/1.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">习近平同志重要讲话</strong>
+                </div>
+                <div class="col-2 text-center"><a
+                        href="http://news.cdu.edu.cn/index.php?m=special&a=show&special_id=105"><img
+                            class="img-responsive center-block" src="./image/2.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">培养和践行社会主义核心价值观</strong></div>
+                <div class="col-2 text-center"><a
+                        href="http://news.cdu.edu.cn/index.php?m=special&a=show&special_id=121"><img
+                            class="img-responsive center-block" style="width: 100px;"
+                            src="./image/3.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">教育思想大讨论</strong>
+                </div>
+                <div class="col-2 text-center"><a href="http://cdxf.cd12371.cn/WebSite/cdindexnew.html?asdf#index"><img
+                            class="img-responsive center-block" src="./image/4.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">成大先锋</strong></div>
+                <div class="col-2"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col-2"></div>
+                <div class="col-2 text-center"><a href="http://shpg.cdu.edu.cn/index.aspx"><img
+                            class="img-responsive center-block" src="./image/5.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">本科教学评估</strong>
+                </div>
+                <div class="col-2 text-center"><a href="http://tfc.cdu.edu.cn/"><img class="img-responsive center-block"
+                            src="./image/6.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">天府文化研究院</strong>
+                </div>
+                <div class="col-2 text-center"><a
+                        href="http://news.cdu.edu.cn/index.php?m=announce&a=slist&cat_id=75"><img
+                            class="img-responsive center-block" style="width: 100px;"
+                            src="./image/7.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">成大讲坛</strong></div>
+                <div class="col-2 text-center"><a href="http://rsc.cdu.edu.cn/index.php?m=news&a=slist&cat_id=19"><img
+                            class="img-responsive center-block" src="./image/8.png"></a><br><br><strong
+                        style="font-size: 20px;color: #90000a;">人才招聘</strong></div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid" style="padding: 0;min-width: 1350px;">
+        <div style="height: 670px;">
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <div class="media">
+                        <div class="media-left"><img src="./image/人物.png"></div>
+                        <div class="media-body" style="font-size: 20px;font-weight: bold">成大人物</div>
+                        <div class="media-right"><img src="./image/more+.png"></div>
+                    </div>
+                    <div style="position: relative;">
+                        <a href="http://news.cdu.edu.cn/index.php?m=news&a=show&news_id=24847"><img
+                                style="margin: 0;width: 615px;height: 467px;" class="img-responsive center-block"
+                                src="./image/20190320173745n911FS5bh7_thumb_2.jpg"></a>
+                        <div class="text-center"
+                            style="position:absolute;left: 15%;; z-index:2;bottom:20px;font-size: 19.25px;color: #ffffff;font-weight: bold;">
+                            <P>赵礼昌：行走在石渠扶贫路上的“正庆”</P>
+                        </div>
+                    </div>
+                    <p class="text-center" id="ADAD" style="font-size: 16px;color: black;">
+                        赵礼昌，1962年12月出生，中共党员，保卫处综合治理科科长。1981年10月入伍，在原某集团军某师炮团服役。1985年7月起在昆明陆军学院工作。1998年9月，转业到成都大学工作至今。2018年7月主动申请前往石渠县精准扶贫驻村。
+                    </p>
+                </div>
+                <div class="col-4">
+                    <div class="media">
+                        <div class="media-left"><img src="./image/摄像机.png"></div>
+                        <div class="media-body" style="font-size: 20px;font-weight: bold">新媒体说</div>
+                        <div class="media-right"><a
+                                href="http://news.cdu.edu.cn/index.php?m=news&a=slist&cat_id=114"><img
+                                    src="./image/more+.png"></a></div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left"><img src="./image/微博.png"></div>
+                        <div class="media-body"><strong
+                                style="font-size: 20px">【第一届成都大学最美校园春景斗图大赛开始啦！】</strong><br><span
+                                style="font-size: 16px;">#成大最美校园春景#
+                                关注成都大学，参与“最美校园春景”斗图大赛，投票数最高前三名，即可获得最高300元的“大成帮你购”大礼包！</span><br><span
+                                style="font-size: 14px;">2019-03-27 09:24</span></div>
+                        <div class="media-right"><img src="./image/微博二维码.jpg"></div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-left "><img src="./image/微信.png"></div>
+                        <div class="media-body">
+                            <strong style="font-size: 20px">樱花樱花，想见你</strong><br><br><span style="font-size: 16px;">
+                                <p>樱之夭夭，灼灼其华。四季初始，花信已至，春日的天光落在樱花树上，是今年春季的粉色限定。</p>
+                            </span><br><br><span style="font-size: 14px;">2019-03-27 09:36</span><br><br><strong
+                                style="font-size: 20px">成大邮局，今日上线</strong><br><br><span style="font-size: 16px;">
+                                <p>把对春日的问候装进信封，附上一张独属成大的邮票。</p>
+                            </span><br><br><span style="font-size: 14px;">2019-03-18 11:54</span>
+                        </div>
+                        <div class="media-right "><img style="margin-top: 110px" src="./image/微信二维码.jpg"></div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0;">
+        <div style="background: #f8f4f4;height: 200px;width: 1280px;margin: 0 auto">
+            <div class="row text-center" style="margin-left: 0px;margin-right: 0px;padding-top: 40px">
+                <div class=" col-md-offset-1"></div>
+
+                <div class="col-1 text-center" style="margin-left: 55px"><a
+                        href="http://oa.cdu.edu.cn/seeyon/index.jsp"><img class="img-responsive center-block"
+                            src="./image/home_nav_01.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">OA系统</strong>
+                </div>
+                <div class="col-1 text-center"><a href="http://lib.cdu.edu.cn/"><img class="img-responsive center-block"
+                            src="./image/home_nav_02.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">图书馆</strong>
+                </div>
+                <div class="col-1 text-center"><a href="http://jw.cdu.edu.cn/"><img class="img-responsive center-block"
+                            src="./image/home_nav_03.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">教务系统</strong>
+                </div>
+                <div class="col-1 text-center"><a
+                        href="http://sso.cdu.edu.cn/sso/login?service=http%3A%2F%2Fportal.cdu.edu.cn%2Fweb%2Fguest"><img
+                            class="img-responsive center-block" src="./image/home_nav_04.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">统一门户信息</strong>
+                </div>
+                <div class="col-1 text-center"><a href="http://ssfw.cdu.edu.cn/"><img
+                            class="img-responsive center-block" src="./image/home_nav_05.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">师生服务热线</strong>
+                </div>
+                <div class="col-1 text-center"><a href="https://xsswzx.cdu.edu.cn:81/"><img
+                            class="img-responsive center-block" src="./image/home_nav_06.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">学生事务服务</strong>
+                </div>
+                <div class="col-1 text-center"><a href="https://www.cdu.edu.cn/mail/login.html"><img
+                            class="img-responsive center-block" src="./image/home_nav_07.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">电子邮件</strong>
+                </div>
+                <div class="col-1 text-center"><a
+                        href="https://www.cdu.edu.cn/static/webpage/lingdaoyouxiang/show/shujixinxiang.html"><img
+                            class="img-responsive center-block" src="./image/home_nav_08.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">书记信箱</strong>
+                </div>
+                <div class="col-1 text-center"><a
+                        href="https://www.cdu.edu.cn/static/webpage/lingdaoyouxiang/show/xiaozhangxinxiang.html"><img
+                            class="img-responsive center-block" src="./image/home_nav_09.png"></a><br><strong
+                        style="font-size: 20px;color: #000;">校长信箱</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0;">
+        <div style="background: #90000a;height: 230px;">
+            <div class="row" style="padding-top: 40px;margin-left: 0px;margin-right: 0px">
+                <div class="col-md-offset-3"></div>
+                <div class="col-8 media">
+                    <div class="media-right" style="border-right: 2px solid white"><a
+                            href="https://www.cdu.edu.cn/"><img style="padding-right: 40px" src="./image/成都大学.png"></a>
+                    </div>
+                    <div class="media-body" style="color: #e6e6e6;margin-left: 40px;margin-top: 14px;">
+                        版权所有©成都大学 蜀ICP备05006454号 | 川公网安备 51011202000207号
+                        <br>
+                        地址： 成都市成洛大道2025号
+                        <br>
+                        电话：028-84616300 邮编：610106
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="x">
+        <a href="#top"><img class="img-responsive" src="./image/回到顶部.png"></a>
+    </div>
+</body>
+<script>
+    //禁止滚动条
+    $(document.body).css({
+        "overflow-x": "hidden",
+    });
+</script>
+
+</html>
